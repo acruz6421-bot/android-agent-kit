@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+shots/
+*.log
+*.lock
+*.xml
+.venv/
+VALIDACAO.md
