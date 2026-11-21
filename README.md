@@ -40,8 +40,17 @@ python examples/03_rotina_simples.py com.example.app
 ```
 O terceiro exemplo abre o pacote informado, rola cinco vezes e volta à tela inicial; não executa ações sociais.
 
+## Início rápido (do vídeo)
+1. Imprima o [gabinete 3D](gabinete/) em PETG e coloque o celular dentro.
+2. Ative a Depuração sem fio no Android e pareie (seção "Pareamento e conexão", acima).
+3. Rode `scripts\instalar.bat` e configure o `.env`.
+4. Teste: `python -m android_agent.inspect dump` deve listar os elementos da tela atual.
+5. Aponte seu agente de IA (Claude Code, Codex, Antigravity) para este repositório e peça o que quiser automatizar.
+
 ## Gabinete 3D
-Arquivos e instruções de impressão em [gabinete/](gabinete/).
+![Gabinete montado](gabinete/assembly_v6_closed_iso.png)
+
+Arquivos, qual STL imprimir e configuração de impressão em [gabinete/](gabinete/).
 
 ## Usando com agentes de IA
 - Claude Code e Antigravity: [skills/android-agent/SKILL.md](skills/android-agent/SKILL.md).
